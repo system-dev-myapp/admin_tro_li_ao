@@ -116,7 +116,7 @@ export default function PointYear() {
 
     const handleValidate = () => {
         let isValid = true;
-        const arrValid = [title, year, desc.text, isChooseFile];
+        const arrValid = [title, year, desc.text, isChooseFile, file];
         for (let i = 0; i < arrValid.length; i++) {
             if (!arrValid[i]) {
                 isValid = false;
